@@ -43,7 +43,3 @@ function removeElementFromEndOfArray(array) {
   newArray = array.slice(0,array.length -1)
   return newArray
 }
-//newArray = a;
- //   newArray.unshift(b)
-  //  return newArray; var newArray = array;
- //newArray.unshift(element)
