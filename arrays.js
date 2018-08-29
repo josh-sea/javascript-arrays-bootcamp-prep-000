@@ -33,8 +33,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
-
-
+//returns array after pop method is run
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.pop()
+}
 
 //newArray = a;
  //   newArray.unshift(b)
