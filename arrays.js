@@ -24,14 +24,14 @@ function destructivelyAddElementToEndOfArray(array,element) {
 function accessElementInArray(array,index) {
   return array[index];
 }
-//shifts paramter input array
+//shifts paramter input array, returns array
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array;
 }
 
-function destructivelyAddElementToBeginningOfArray(array,element) {
-  array.unshift(element)
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1)
   return array;
 }
 
