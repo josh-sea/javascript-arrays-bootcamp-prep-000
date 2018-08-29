@@ -35,7 +35,7 @@ function removeElementFromBeginningOfArray(array) {
 }
 //returns array after pop method is run
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop()
+  array.pop()
 }
 //slice array paramteter from 0th element to length-1
 function removeElementFromEndOfArray(array) {
