@@ -27,7 +27,6 @@ function accessElementInArray(array,index) {
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array;
-  return newArray
 }
 //function takes in paramater array for a, unshifts parameter b as first array element in //paramter a, returns array a
 function destructivelyAddElementToBeginningOfArray(array,element) {
